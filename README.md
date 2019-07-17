@@ -1,7 +1,7 @@
 ![CEDS Integrated Data Store Logo](/res/CEDS-IDS-Logo-Full-Medium.png "CEDS Integrated Data Store")
 
 # CEDS Integrated Data Store (IDS)
-The CEDS Integrated Data Store factors the complete set of CEDS elements, entities and attributes with standard technical syntax and 3rd normal form database normalization. The IDS Model provides a standard framework for integration of P-20W data systems through a well-normalized “operational data store.”   It can be used for transactional education data systems, to perform near real-time reporting, and as a standard staging area to load the CEDS Data Warehouse. 
+The CEDS Integrated Data Store factors the complete set of CEDS elements, entities and attributes with standard technical syntax and 3rd normal form database normalization. The IDS Model provides a standard framework for integration of P-20W data systems through a well-normalized “operational data store.” It can be used for transactional education data systems, to perform near real-time reporting, and as a standard staging area to load the CEDS Data Warehouse. 
 
 ## Getting Started
 
@@ -10,11 +10,11 @@ The CEDS Integrated Data Store factors the complete set of CEDS elements, entiti
 To create a new instance of the CEDS IDS on your SQL Server, perform the following steps.
 
 1. Open the database creation script at /src/ddl/CEDS-IDS.sql using your preferred SQL client. 
-2. Connect to the server on which you with to create the CEDS IDS instance.
+2. Connect to the server on which you wish to create the CEDS IDS instance.
 3. Find and replace the existing database name in the script (eg. CEDS-NDS-V7_2_0_0) with the database name of your choice.
 4. Run the script. 
 
-The database is empty by default.  Proceed with the following instructions to load CEDS Element metadata and CEDS Option Set values into the reference tables.
+The database is empty by default. Proceed with the following instructions to load CEDS Element metadata and CEDS Option Set values into the reference tables.
 
 ### Loading CEDS Element Metadata
 
